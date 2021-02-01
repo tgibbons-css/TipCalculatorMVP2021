@@ -68,9 +68,7 @@ public class MainActivity extends AppCompatActivity  implements updateViewInterf
 
     @Override
     public void updateView(Double totalTip, Double tipPerPerson) {
-
         textViewTotalTip.setText(NumberFormat.getCurrencyInstance().format(totalTip));
         textViewTipPerPerson.setText( NumberFormat.getCurrencyInstance().format(tipPerPerson));
-
     }
 }
